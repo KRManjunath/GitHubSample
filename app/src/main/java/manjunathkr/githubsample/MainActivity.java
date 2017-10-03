@@ -1,5 +1,6 @@
 package manjunathkr.githubsample;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -12,5 +13,10 @@ public class MainActivity extends AppCompatActivity {
 
         //Hello
         //This is new changes
+
+        Intent intent = new Intent(this,LoginActivity.class);
+        startActivity(intent);
+
+
     }
 }
